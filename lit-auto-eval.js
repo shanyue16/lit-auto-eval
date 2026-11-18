@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         洛阳理工学院·随堂评价自动提交
 // @namespace    lljw-lit-auto-eval
-// @version      1.1.1
+// @version      1.1.2
 // @description  随堂评价列表逐条自动填写并提交：总分在区间内随机、评语多条随机取一（默认“无”）、可拖动/最小化悬浮面板（评分区间/评语池/重试/上限均在面板设置）、提交后确认弹窗自动点、可中止，提交不可逆。
 // @match        https://lljw.lit.edu.cn/*
 // @allFrames    true
@@ -570,7 +570,7 @@
     $('lit-pj-stop').onclick = () => { S.abort = true; setState('中止中…'); $('lit-pj-stop').disabled = true; };
     const ns = sweepSuccessDlg(doc);
     if (ns) log('已清理「评价成功」弹窗 ' + ns + ' 个');
-    log('面板就绪（v1.1.1：拖动/最小化/设置/评价成功弹窗自动清）');
+    log('面板就绪（v1.1.2：拖动/最小化/设置/评价成功弹窗自动清）');
   }
 
   /* ---------- 入口：仅随堂评价列表 iframe ---------- */

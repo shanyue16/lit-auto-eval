@@ -20,7 +20,7 @@
 
 | 文件 | 说明 |
 |---|---|
-| `lit-auto-eval.js` | 脚本本体（v1.1.1，583 行），Tampermonkey 直接安装这个 |
+| `lit-auto-eval.js` | 脚本本体（v1.1.2，583 行），Tampermonkey 直接安装这个 |
 | `lit-auto-eval.b64.txt` | 同一源码的 base64 单行编码（36736 字符），用于不方便传原始 JS 的场景；已与 `.js` 做过 SHA 往返校验一致 |
 | `LICENSE` | 自撰许可：仅禁止售卖，其他不限制 |
 | `README.md` | 本文件 |
