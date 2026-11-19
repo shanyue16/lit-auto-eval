@@ -22,7 +22,7 @@
 |---|---|
 | `lit-auto-eval.js` | 脚本本体（v1.1.2，583 行），Tampermonkey 直接安装这个 |
 | `lit-auto-eval.b64.txt` | 同一源码的 base64 单行编码（36736 字符），用于不方便传原始 JS 的场景；已与 `.js` 做过 SHA 往返校验一致 |
-| `LICENSE` | 自撰许可：仅禁止售卖，其他不限制 |
+| `LICENSE` | GPLv3（GNU General Public License v3.0） |
 | `README.md` | 本文件 |
 
 ## 环境要求
@@ -79,4 +79,4 @@ Tampermonkey → 「添加新脚本」→ 清空编辑器 → 粘贴 `lit-auto-e
 
 ## 许可
 
-[LICENSE](LICENSE)：**仅禁止售卖，其他一律不限制**。可自由使用、修改、复制、再分发（含商业用途），无需授权、无需署名、无需保留许可文件；唯一禁止的是把本软件（源码或修改版）作为收费商品出售。
+[LICENSE](LICENSE)：**GNU General Public License v3.0（GPLv3）**。可自由使用、修改、复制、再分发（含商业用途），但再分发（含修改版）必须以 GPLv3 同样开源许可发布并附带本许可文件；禁止附加比 GPLv3 更严格的限制。完整条款见 [LICENSE](LICENSE)。
